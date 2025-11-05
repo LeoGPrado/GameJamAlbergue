@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: 4e4457ee0614dc1488d264ad2714cc17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5615440895109491699
+    second: robot-win-sprite-Sheet_0
+  - first:
+      213: 2096846740830882812
+    second: robot-win-sprite-Sheet_1
+  - first:
+      213: -608302148153710354
+    second: robot-win-sprite-Sheet_2
+  - first:
+      213: 1106749115050126127
+    second: robot-win-sprite-Sheet_3
+  - first:
+      213: 818274612572044572
+    second: robot-win-sprite-Sheet_4
+  - first:
+      213: 6105736204440515417
+    second: robot-win-sprite-Sheet_5
+  - first:
+      213: -4256687073268999680
+    second: robot-win-sprite-Sheet_6
+  - first:
+      213: -9123492766339470205
+    second: robot-win-sprite-Sheet_7
+  - first:
+      213: 7860131085557361958
+    second: robot-win-sprite-Sheet_8
+  - first:
+      213: -6293037780944819434
+    second: robot-win-sprite-Sheet_9
+  - first:
+      213: 3087831298917127104
+    second: robot-win-sprite-Sheet_10
+  - first:
+      213: -5060912333038077640
+    second: robot-win-sprite-Sheet_11
+  - first:
+      213: 4219317454921748495
+    second: robot-win-sprite-Sheet_12
+  - first:
+      213: 1523089392155378777
+    second: robot-win-sprite-Sheet_13
+  - first:
+      213: 7376091247927375227
+    second: robot-win-sprite-Sheet_14
+  - first:
+      213: 3823586616634816747
+    second: robot-win-sprite-Sheet_15
+  - first:
+      213: -3543159874669353368
+    second: robot-win-sprite-Sheet_16
+  - first:
+      213: 789947421377762713
+    second: robot-win-sprite-Sheet_17
+  - first:
+      213: -2559883273042199645
+    second: robot-win-sprite-Sheet_18
+  - first:
+      213: -887400840711501053
+    second: robot-win-sprite-Sheet_19
+  - first:
+      213: -2165940607485420573
+    second: robot-win-sprite-Sheet_20
+  - first:
+      213: -3323817421189607701
+    second: robot-win-sprite-Sheet_21
+  - first:
+      213: 7536942121474961218
+    second: robot-win-sprite-Sheet_22
+  - first:
+      213: -7227969341363107696
+    second: robot-win-sprite-Sheet_23
+  - first:
+      213: 2075707695841521096
+    second: robot-win-sprite-Sheet_24
+  - first:
+      213: 386345737548639588
+    second: robot-win-sprite-Sheet_25
+  - first:
+      213: 2968462203021989388
+    second: robot-win-sprite-Sheet_26
+  - first:
+      213: 2119168863447521253
+    second: robot-win-sprite-Sheet_27
+  - first:
+      213: 9121810727425801777
+    second: robot-win-sprite-Sheet_28
+  - first:
+      213: -4019190384447349619
+    second: robot-win-sprite-Sheet_29
+  - first:
+      213: -8409285604518617589
+    second: robot-win-sprite-Sheet_30
+  - first:
+      213: -4668649377850139476
+    second: robot-win-sprite-Sheet_31
+  - first:
+      213: 6007768522697897364
+    second: robot-win-sprite-Sheet_32
+  - first:
+      213: -542012612023935051
+    second: robot-win-sprite-Sheet_33
+  - first:
+      213: 6627390049427586140
+    second: robot-win-sprite-Sheet_34
+  - first:
+      213: -1331370271889948671
+    second: robot-win-sprite-Sheet_35
+  - first:
+      213: -7803983641050582592
+    second: robot-win-sprite-Sheet_36
+  - first:
+      213: -3553257757433425168
+    second: robot-win-sprite-Sheet_37
+  - first:
+      213: -1481870854156015330
+    second: robot-win-sprite-Sheet_38
+  - first:
+      213: -6803728478581557168
+    second: robot-win-sprite-Sheet_39
+  - first:
+      213: -3041427568009947474
+    second: robot-win-sprite-Sheet_40
+  - first:
+      213: 342490764936562248
+    second: robot-win-sprite-Sheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d041ccdf142f112b0800000000000000
+      internalID: -5615440895109491699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb09af400f791d10800000000000000
+      internalID: 2096846740830882812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8e03f4b60ee87f0800000000000000
+      internalID: -608302148153710354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b6a02d476fb5f00800000000000000
+      internalID: 1106749115050126127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1db31bbc681b5b00800000000000000
+      internalID: 818274612572044572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9533be57abeebb450800000000000000
+      internalID: 6105736204440515417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00addc5e8a53de4c0800000000000000
+      internalID: -4256687073268999680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c6d77daa7d26180800000000000000
+      internalID: -9123492766339470205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62de6aad39bc41d60800000000000000
+      internalID: 7860131085557361958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bebacea73aaa8a0800000000000000
+      internalID: -6293037780944819434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3d942d43e2ada20800000000000000
+      internalID: 3087831298917127104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8393fd50c0704c9b0800000000000000
+      internalID: -5060912333038077640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-win-sprite-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00573fced60e8a30800000000000000
+      internalID: 4219317454921748495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dd5c63ce17b7aeb4099dd3cf4ee245a8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      robot-win-sprite-Sheet_0: -5615440895109491699
+      robot-win-sprite-Sheet_1: 2096846740830882812
+      robot-win-sprite-Sheet_10: 3087831298917127104
+      robot-win-sprite-Sheet_11: -5060912333038077640
+      robot-win-sprite-Sheet_12: 4219317454921748495
+      robot-win-sprite-Sheet_2: -608302148153710354
+      robot-win-sprite-Sheet_3: 1106749115050126127
+      robot-win-sprite-Sheet_4: 818274612572044572
+      robot-win-sprite-Sheet_5: 6105736204440515417
+      robot-win-sprite-Sheet_6: -4256687073268999680
+      robot-win-sprite-Sheet_7: -9123492766339470205
+      robot-win-sprite-Sheet_8: 7860131085557361958
+      robot-win-sprite-Sheet_9: -6293037780944819434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
