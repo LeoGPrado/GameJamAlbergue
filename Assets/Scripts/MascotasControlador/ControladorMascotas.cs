@@ -7,6 +7,7 @@ public class ControladorMascotas : MonoBehaviour
 
     public int velocidadMovimiento = 5;
     public int fuerzaSalto = 8;
+    private bool inTrampolin;
 
     public static ControladorMascotas controlador;
 
@@ -18,6 +19,7 @@ public class ControladorMascotas : MonoBehaviour
     {
         if (controlador == null)
         {
+            inTrampolin = false;
             controlador = this;
         }
     }
@@ -26,11 +28,22 @@ public class ControladorMascotas : MonoBehaviour
     {
         movimientoGato();
     }
+    private void FixedUpdate()
+    {
+        ActivarSaltoTrampolin();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "trampolin")
         {
-            ActivarSaltoTrampolin();
+            inTrampolin = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "trampolin")
+        {
+            inTrampolin = false;
         }
     }
     void movimientoGato()
@@ -42,7 +55,7 @@ public class ControladorMascotas : MonoBehaviour
 
     public void ActivarSaltoTrampolin()
     {
-        if (pisandoSuelo())
+        if (pisandoSuelo() && inTrampolin)
         {
             mascota.AddForce(Vector2.up * fuerzaSalto * Time.timeScale, ForceMode2D.Impulse);
         }

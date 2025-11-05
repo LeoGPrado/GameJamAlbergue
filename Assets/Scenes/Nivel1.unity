@@ -532,17 +532,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44717961}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1943525019}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 519420032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960, y: 540}
+  m_AnchoredPosition: {x: 948.66754, y: 536.2655}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &52647474
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mascota: {fileID: 52647478}
   velocidadMovimiento: 5
-  fuerzaSalto: 8
+  fuerzaSalto: 12
   PisoCheckCentro: {fileID: 52647474}
   DistaciaPiso: 0.53
   PisoLayer:
@@ -671,7 +671,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2387,7 +2387,7 @@ Transform:
   m_GameObject: {fileID: 304100723}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5757, y: -9.2, z: 0}
+  m_LocalPosition: {x: 0.5757, y: -6.38, z: 0}
   m_LocalScale: {x: 1.59018, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6742,10 +6742,11 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.40833, y: 3.5677743, z: -10.048982}
+  m_LocalPosition: {x: 9.404433, y: 3.5677743, z: -10.048982}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 44717965}
   m_Father: {fileID: 1091754808}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
@@ -7592,7 +7593,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7618,7 +7619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mascota: {fileID: 784829340}
   velocidadMovimiento: 5
-  fuerzaSalto: 8
+  fuerzaSalto: 12
   PisoCheckCentro: {fileID: 784829336}
   DistaciaPiso: 0.53
   PisoLayer:
@@ -7730,7 +7731,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 6200000, guid: 98a401abc5ceb6740b022abed4ec3b1f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -7740,7 +7741,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &832131819
 SpriteRenderer:
@@ -7832,7 +7833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Gato: {fileID: 832131818}
   velocidadMovimiento: 5
-  fuerzaSalto: 8
+  fuerzaSalto: 12
   PisoCheckCentro: {fileID: 832131816}
   DistaciaPiso: 0.82
   PisoLayer:
@@ -7873,7 +7874,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832131816}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 634ee01827e171145955231fd2a0d3b5, type: 3}
   m_Name: 
@@ -8735,7 +8736,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 6200000, guid: 98a401abc5ceb6740b022abed4ec3b1f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -8761,7 +8762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mascota: {fileID: 1226446033}
   velocidadMovimiento: 5
-  fuerzaSalto: 8
+  fuerzaSalto: 12
   PisoCheckCentro: {fileID: 1226446030}
   DistaciaPiso: 0.53
   PisoLayer:
@@ -9149,7 +9150,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -9175,7 +9176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mascota: {fileID: 1279955945}
   velocidadMovimiento: 5
-  fuerzaSalto: 8
+  fuerzaSalto: 12
   PisoCheckCentro: {fileID: 1279955941}
   DistaciaPiso: 0.53
   PisoLayer:
@@ -9706,7 +9707,7 @@ Transform:
   m_GameObject: {fileID: 1424796154}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.40833, y: 3.5677743, z: -10.048982}
+  m_LocalPosition: {x: 9.404433, y: 3.5677743, z: -10.048982}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9911,7 +9912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mascota: {fileID: 1441743350}
   velocidadMovimiento: 5
-  fuerzaSalto: 8
+  fuerzaSalto: 12
   PisoCheckCentro: {fileID: 1441743346}
   DistaciaPiso: 0.53
   PisoLayer:
@@ -9932,7 +9933,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -10934,7 +10935,7 @@ Transform:
   m_GameObject: {fileID: 1882523451}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.45, y: -0.91, z: 0}
+  m_LocalPosition: {x: 15.1, y: -0.91, z: 0}
   m_LocalScale: {x: 1, y: 0.1023, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11055,7 +11056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -948.6635, y: -536.2654}
+  m_AnchoredPosition: {x: -948.6636, y: -536.2654}
   m_SizeDelta: {x: 0.00012207031, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2066518108
@@ -11140,4 +11141,3 @@ SceneRoots:
   - {fileID: 1669933201}
   - {fileID: 1140395327}
   - {fileID: 1297858297}
-  - {fileID: 44717965}

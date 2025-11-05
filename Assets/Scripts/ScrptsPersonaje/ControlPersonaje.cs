@@ -5,40 +5,56 @@ using UnityEngine.UI;
 public class ControlPersonaje : MonoBehaviour
 {
     [SerializeField] Rigidbody2D Gato;
-    public int velocidadMovimiento = 5;
+    public int velocidadMovimiento;
 
     //salto
-    public int fuerzaSalto=3;
+    public int fuerzaSalto;
 
     [SerializeField] GameObject PisoCheckCentro;
     [SerializeField] float DistaciaPiso;
     [SerializeField] LayerMask PisoLayer;
+    private bool canJump;
 
     public Animator PersonajeAnimator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        canJump = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        bool PisandoSuelo = pisandoSuelo();
+        //bool PisandoSuelo = pisandoSuelo();
 
-        if (pisandoSuelo() == true)
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-
-                salto();
-            }
+            canJump = true;
         }
 
-        movimientoGato();
-    }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    saltar();
+        //}
 
+        //if (pisandoSuelo() == true)
+        //{
+        //    if (Input.GetKeyDown(KeyCode.Space))
+        //    {
+
+        //        salto();
+        //    }
+        //}
+
+        //movimientoGato();
+    }
+    private void FixedUpdate()
+    {
+        movimientoGato();
+        salto();
+    }
     void movimientoGato()
     {
 
@@ -52,9 +68,10 @@ public class ControlPersonaje : MonoBehaviour
         if (pisandoSuelo())
         {
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (canJump)
             {
                 saltar();
+                canJump = false;
             }
         }
 

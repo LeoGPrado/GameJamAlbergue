@@ -14,6 +14,7 @@ public class SaltoAutomatico : MonoBehaviour
     [SerializeField] Transform perro1Transform;
     [SerializeField] Transform perro2Transform;
 
+
     //[SerializeField] Transform GatoPrinciapal;
 
     public static SaltoAutomatico SaltoAuto;
