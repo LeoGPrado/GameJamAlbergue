@@ -17,8 +17,8 @@ public class ParaTiempo : MonoBehaviour
 
     IEnumerator DetenerInicio()
     {
-        Time.timeScale = 1f;
-        yield return new WaitForSeconds(2f);
         Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(2.5f);
+        Time.timeScale = 1f;
     }
 }

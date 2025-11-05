@@ -29,7 +29,7 @@ public class aclsrecer : MonoBehaviour
         // Ir subiendo el alpha de 0 → 1
         while (tiempo < TOscurecer)
         {
-            tiempo += Time.deltaTime;
+            tiempo += Time.unscaledDeltaTime;
             oscurecer.a = Mathf.Lerp(1, 0, tiempo / TOscurecer);
             Oscurecer.color = oscurecer;
             yield return null;
