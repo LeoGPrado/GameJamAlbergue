@@ -21,7 +21,7 @@ public class CambiarReiniciar : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            OscurecerEscena(0);
+            OscurecerEscena(2);
         }
     }
 

@@ -16,13 +16,21 @@ public class CambiarEscenas : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(aclarar());
+        if (aclararEscena!=null)
+        {
+            StartCoroutine(aclarar());
+        }
+
     }
 
     public void CambiarEscena(int indiceEscena)
     {
-        gameObjectOscurecer.SetActive(true);
-        StartCoroutine(oscuro(indiceEscena));
+        if (gameObjectOscurecer != null)
+        {
+            gameObjectOscurecer.SetActive(true);
+            StartCoroutine(oscuro(indiceEscena));
+        }
+
 
     }
 
