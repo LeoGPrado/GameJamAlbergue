@@ -9,21 +9,23 @@ public class CambiarReiniciar : MonoBehaviour
     public RawImage Oscurecer;
     public float TOscurecer = 2f;
 
-    public void OscurecerEscena()
+
+    public void OscurecerEscena(int indiceEscena)
     {
         gameObjectOscurecer.SetActive(true);
-        StartCoroutine(oscuro());
+        StartCoroutine(oscuro(indiceEscena));
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            OscurecerEscena();
+            OscurecerEscena(0);
         }
     }
 
-    IEnumerator oscuro()
+    IEnumerator oscuro(int Indice)
     {
         float tiempo = 0;
         Color oscurecer = Oscurecer.color;
@@ -37,8 +39,8 @@ public class CambiarReiniciar : MonoBehaviour
             yield return null;
         }
 
-        Application.Quit();
+        //Application.Quit();
 
-        SceneManager.LoadScene("Reinicar");
+        SceneManager.LoadScene(Indice);
     }
 }
