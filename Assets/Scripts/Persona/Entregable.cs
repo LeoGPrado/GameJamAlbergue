@@ -28,6 +28,12 @@ public class Entregable : MonoBehaviour
 
     public Rigidbody2D robotez;
 
+    public GameObject Gato1Revision;
+    public GameObject Gato2Revision;
+    public GameObject Perro1Revision;
+    public GameObject Perro2Revision;
+    public GameObject Perro3Revision;
+
     private int contador=1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -48,6 +54,7 @@ public class Entregable : MonoBehaviour
             gato1.SetActive(false);
             PersonaEntregable1.SetActive(false);
             EntregaCompleta1.SetActive(true);
+            Gato1Revision.SetActive(true);
             contador++;
         }
         else if (((collision.gameObject.tag == "Persona") || (collision.gameObject.tag == "Upersona")) && (contador == 2))
@@ -55,6 +62,7 @@ public class Entregable : MonoBehaviour
             gato2.SetActive(false);
             PersonaEntregable2.SetActive(false);
             EntregaCompleta2.SetActive(true);
+            Gato2Revision.SetActive(true);
             contador++;
         }
         else if (((collision.gameObject.tag == "Persona") || (collision.gameObject.tag == "Upersona")) && (contador == 3))
@@ -62,6 +70,7 @@ public class Entregable : MonoBehaviour
             gato3.SetActive(false);
             PersonaEntregable3.SetActive(false);
             EntregaCompleta3.SetActive(true);
+            Perro1Revision.SetActive(true);
             contador++;
         }
         else if (((collision.gameObject.tag == "Persona") || (collision.gameObject.tag == "Upersona")) && (contador == 4))
@@ -69,6 +78,7 @@ public class Entregable : MonoBehaviour
             gato4.SetActive(false);
             PersonaEntregable4.SetActive(false);
             EntregaCompleta4.SetActive(true);
+            Perro2Revision.SetActive(true);
             contador++;
         }
         else if (((collision.gameObject.tag == "Persona") || (collision.gameObject.tag == "Upersona")) && (contador == 5))
@@ -76,6 +86,7 @@ public class Entregable : MonoBehaviour
             gato5.SetActive(false);
             PersonaEntregable5.SetActive(false);
             EntregaCompleta5.SetActive(true);
+            Perro3Revision.SetActive(true);
             contador++;
             robotez.constraints = RigidbodyConstraints2D.FreezeAll;
             //StartCoroutine(verificar());
