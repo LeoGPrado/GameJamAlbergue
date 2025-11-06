@@ -24,6 +24,9 @@ public class Entregable : MonoBehaviour
     public GameObject gato5;
     public GameObject EntregaCompleta5;
 
+    public GameObject pamtallaDeVerificar;
+
+    public Rigidbody2D robotez;
 
     private int contador=1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -74,13 +77,16 @@ public class Entregable : MonoBehaviour
             PersonaEntregable5.SetActive(false);
             EntregaCompleta5.SetActive(true);
             contador++;
+            robotez.constraints = RigidbodyConstraints2D.FreezeAll;
             //StartCoroutine(verificar());
-            SceneManager.LoadScene("Ganaste");
+            pamtallaDeVerificar.SetActive(true);
+            //SceneManager.LoadScene("Ganaste");
         }
     }
 
     /*IEnumerator verificar()
     {
+
 
         yield return new WaitForSecondsRealtime(1f);
 
