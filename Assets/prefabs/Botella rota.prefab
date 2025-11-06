@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2722169776428224602}
   - component: {fileID: 5446226541216188416}
   - component: {fileID: 1050258372379039780}
-  - component: {fileID: 3774399739776904404}
+  - component: {fileID: 8923843616235548285}
   m_Layer: 0
   m_Name: Botella rota
   m_TagString: Untagged
@@ -123,7 +123,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.053041458, y: -0.4310909}
+  m_Offset: {x: 0.18805504, y: -0.508318}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -133,9 +133,9 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.87548447, y: 0.77431977}
+  m_Size: {x: 0.09982681, y: 0.61986554}
   m_EdgeRadius: 0
---- !u!114 &3774399739776904404
+--- !u!114 &8923843616235548285
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,9 +144,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 7688174484489826764}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ef780cf6e1075b4da25e7354fbfc7fb, type: 3}
+  m_Script: {fileID: 11500000, guid: cf454e14a5d7e304ba0fb25798852fca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectOscurecer: {fileID: 0}
   Oscurecer: {fileID: 0}
   TOscurecer: 2
+  robotez: {fileID: 0}
+  gato1: {fileID: 0}
+  gato2: {fileID: 0}
+  perro1: {fileID: 0}
+  perro2: {fileID: 0}
+  perro3: {fileID: 0}

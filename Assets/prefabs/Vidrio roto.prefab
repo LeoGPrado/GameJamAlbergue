@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5841582559920999998}
   - component: {fileID: 3880742613808613321}
-  - component: {fileID: 8845106861268849675}
   - component: {fileID: 6822290911976720291}
+  - component: {fileID: 1103477668783960759}
   m_Layer: 0
   m_Name: Vidrio roto
   m_TagString: Untagged
@@ -89,21 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8845106861268849675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7059069096757691671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ef780cf6e1075b4da25e7354fbfc7fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectOscurecer: {fileID: 0}
-  Oscurecer: {fileID: 0}
-  TOscurecer: 2
 --- !u!61 &6822290911976720291
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -138,7 +123,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.07685447, y: -0.4440901}
+  m_Offset: {x: 0.15851402, y: -0.48551127}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -148,5 +133,26 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.7354455, y: 0.37687725}
+  m_Size: {x: 0.14775467, y: 0.2940349}
   m_EdgeRadius: 0
+--- !u!114 &1103477668783960759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7059069096757691671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf454e14a5d7e304ba0fb25798852fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectOscurecer: {fileID: 0}
+  Oscurecer: {fileID: 0}
+  TOscurecer: 2
+  robotez: {fileID: 0}
+  gato1: {fileID: 0}
+  gato2: {fileID: 0}
+  perro1: {fileID: 0}
+  perro2: {fileID: 0}
+  perro3: {fileID: 0}

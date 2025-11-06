@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Entregable : MonoBehaviour
 {
@@ -73,7 +74,15 @@ public class Entregable : MonoBehaviour
             PersonaEntregable5.SetActive(false);
             EntregaCompleta5.SetActive(true);
             contador++;
+            //StartCoroutine(verificar());
             SceneManager.LoadScene("Ganaste");
         }
     }
+
+    /*IEnumerator verificar()
+    {
+
+        yield return new WaitForSecondsRealtime(1f);
+
+    }*/
 }
