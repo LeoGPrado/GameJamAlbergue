@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
+
 public class ControlPersonaje : MonoBehaviour
 {
     [SerializeField] Rigidbody2D Gato;
