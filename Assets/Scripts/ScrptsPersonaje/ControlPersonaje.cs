@@ -84,8 +84,8 @@ public class ControlPersonaje : MonoBehaviour
 
     void salto()
     {
-
-        if (pisandoSuelo () && canJump)
+        bool suelo = pisandoSuelo();
+        if (suelo && canJump)
         {
 
             
