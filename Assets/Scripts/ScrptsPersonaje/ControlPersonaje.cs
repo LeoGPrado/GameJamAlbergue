@@ -61,11 +61,12 @@ public class ControlPersonaje : MonoBehaviour
         //}
 
         //movimientoGato();
+        salto();
     }
     private void FixedUpdate()
     {
         movimientoGato();
-        salto();
+        
     }
     void movimientoGato()
     {
@@ -77,14 +78,14 @@ public class ControlPersonaje : MonoBehaviour
     void salto()
     {
 
-        if (pisandoSuelo())
+        if (pisandoSuelo () && canJump)
         {
 
-            if (canJump)
-            {
+            
+            
                 saltar();
                 canJump = false;
-            }
+            
         }
 
     }
