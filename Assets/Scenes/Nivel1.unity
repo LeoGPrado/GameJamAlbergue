@@ -16558,6 +16558,8 @@ MonoBehaviour:
   PisoLayer:
     serializedVersion: 2
     m_Bits: 64
+  ultimoSalto: 0
+  cooldownSalto: 2
   PersonajeAnimator: {fileID: 832131824}
 --- !u!114 &832131822
 MonoBehaviour:

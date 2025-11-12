@@ -14,6 +14,8 @@ public class ControlPersonaje : MonoBehaviour
     [SerializeField] GameObject PisoCheckCentro;
     [SerializeField] float DistaciaPiso;
     [SerializeField] LayerMask PisoLayer;
+    [SerializeField] float ultimoSalto;
+    [SerializeField] float cooldownSalto;
     private bool canJump;
 
     public Animator PersonajeAnimator;
@@ -21,7 +23,9 @@ public class ControlPersonaje : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
         canJump = false;
+        ultimoSalto = Time.time;
     }
 
     // Update is called once per frame
@@ -36,7 +40,10 @@ public class ControlPersonaje : MonoBehaviour
             // Si el jugador toca la pantalla (sin importar swipe)
             if (touch.press.wasPressedThisFrame)
             {
-                canJump = true;
+                if (Time.time >= ultimoSalto + cooldownSalto)
+                {
+                    canJump = true;
+                }
             }
         }
 
@@ -95,6 +102,7 @@ public class ControlPersonaje : MonoBehaviour
         //SaltoAutomatico.SaltoAuto.ActivarSaltoBarraEspaciadora();
         PersonajeAnimator.SetBool("SaltoP", true);
         Gato.AddForce(Vector2.up * fuerzaSalto * Time.timeScale, ForceMode2D.Impulse);
+        ultimoSalto = Time.time;
     }
 
     public bool pisandoSuelo()
