@@ -28,9 +28,20 @@ public class ControlPersonaje : MonoBehaviour
     void Update()
     {
         //bool PisandoSuelo = pisandoSuelo();
+        var ts = Touchscreen.current;
+        if (ts != null)
+        {
+            var touch = ts.primaryTouch;
+
+            // Si el jugador toca la pantalla (sin importar swipe)
+            if (touch.press.wasPressedThisFrame)
+            {
+                canJump = true;
+            }
+        }
 
 
-        if (Input.touchCount > 0 || Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             canJump = true;
         }
