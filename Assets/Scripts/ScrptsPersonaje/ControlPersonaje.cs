@@ -30,7 +30,7 @@ public class ControlPersonaje : MonoBehaviour
         //bool PisandoSuelo = pisandoSuelo();
 
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.touchCount > 0 || Input.GetKeyDown(KeyCode.Space))
         {
             canJump = true;
         }
