@@ -20700,7 +20700,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: USA BARRA ESPACIADORA PARA SALTAR
+  m_text: PULSA LA PANTALLA PARA SALTAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a1f23b7cd3b8e542a2b0a0ad74dc99a, type: 2}
   m_sharedMaterial: {fileID: -7904678103039247106, guid: 9a1f23b7cd3b8e542a2b0a0ad74dc99a, type: 2}
@@ -20835,8 +20835,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.15}
-  m_SizeDelta: {x: 6.4651, y: 5}
+  m_AnchoredPosition: {x: 0.1067, y: 1.15}
+  m_SizeDelta: {x: 5.9103, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1724575890
 GameObject:
